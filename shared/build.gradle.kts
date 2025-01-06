@@ -33,7 +33,7 @@ kotlin {
         }
 
         androidMain.dependencies {
-
+            implementation(libs.androidx.lifecycle.viewmodel.ktx)
         }
 
         iosMain.dependencies {
