@@ -29,7 +29,8 @@ kotlin {
 
     sourceSets {
         commonMain.dependencies {
-            //put your multiplatform dependencies here
+            //lidar com código sincrono
+            implementation(libs.kotlinx.coroutines.core)
         }
 
         androidMain.dependencies {
